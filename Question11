@@ -83,3 +83,5 @@ print(apple+orange)
 #Type the output if the strings "7" and "3" are added
 
 print("7" + "3")
+
+#output = 73
