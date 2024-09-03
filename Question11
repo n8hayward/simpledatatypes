@@ -1,0 +1,85 @@
+#Question 1 Booleans
+
+#boolean True + boolean True - boolean False = ?
+
+#Define variable as posed question
+boolean = True + True + False
+
+#Print result
+print (boolean)
+
+_________________________________
+
+#Question 2 - Boolean operators and + if conditions
+
+#Define variable
+logical = True
+
+#And statement
+logical = logical & logical
+
+#Or statement
+logical = logical | (logical - logical)
+
+#Display result
+print (logical)
+
+-----------------------------------------
+
+#Question 5 strings as lists 
+
+#Define string variable
+string = "E. Coli"
+
+#Print variable
+print (string)
+
+#Locate 2nd element of string
+string[2]
+
+__________________________________
+
+#Question 6 - Replace
+
+#Oh no! My string has a typo!
+#string = "I Bove python"
+#No worries though. I'll just fix that.
+#string[2]="L" will not work
+
+#Define variable
+string = "I Bove python"
+
+#Question test
+#string[2]="L" leads to error: 'str' object does not support item assignment
+
+#Redefine variable
+x=string
+print(x)
+
+#Replace 'B' with 'L'
+x.replace('B','L')
+
+----------------------------------------
+
+#Question 9
+#Explain how the "+", addition operation works differently for integers and strings
+
+#Integer addition
+apple = 1
+orange = 3
+print(apple + orange)
+#output = 4
+
+#String addition
+apple = str(apple)
+orange = str(orange)
+print(apple+orange)
+#output = 13
+
+----------------------------------------
+
+#Question 10 - Adding strings
+
+#Type the output if the strings "7" and "3" are added
+
+print("7" + "3")
