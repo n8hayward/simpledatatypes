@@ -8,7 +8,7 @@ boolean = True + True + False
 #Print result
 print (boolean)
 
-_________________________________
+#_________________________________
 
 #Question 2 - Boolean operators and + if conditions
 
@@ -24,7 +24,7 @@ logical = logical | (logical - logical)
 #Display result
 print (logical)
 
------------------------------------------
+#-----------------------------------------
 
 #Question 5 strings as lists 
 
@@ -37,7 +37,7 @@ print (string)
 #Locate 2nd element of string
 string[2]
 
-__________________________________
+#__________________________________
 
 #Question 6 - Replace
 
@@ -59,7 +59,7 @@ print(x)
 #Replace 'B' with 'L'
 x.replace('B','L')
 
-----------------------------------------
+#----------------------------------------
 
 #Question 9
 #Explain how the "+", addition operation works differently for integers and strings
@@ -76,7 +76,7 @@ orange = str(orange)
 print(apple+orange)
 #output = 13
 
-----------------------------------------
+#----------------------------------------
 
 #Question 10 - Adding strings
 
